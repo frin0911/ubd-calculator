@@ -1,0 +1,110 @@
+@font-face {
+    font-family: "BMDOHYEON";
+    src: url("../font/bmdohyeon.ttf") format("truetype");
+}
+
+@font-face {
+    font-family: "Cafe24Ohsquareair";
+    src: url("../font/cafe24ohsquareair.ttf") format("truetype");
+}
+
+@font-face {
+    font-family: "HangeulNuriR";
+    src: url("../font/hangeulnuri.ttf") format("truetype");
+}
+
+body {
+    background-color: white;
+    padding-top: 85px;
+}
+
+h1 {
+    font-size: 80px;
+    font-family: BMDOHYEON, sans-serif;
+    text-align: center;
+    margin-top: -30px;
+}
+
+h2 {
+    text-align: center;
+    font-family: Cafe24Ohsquareair, sans-serif;
+    color: black;
+}
+
+h3 {
+    text-align: center;
+    font-size: 40px;
+    font-family: BMDOHYEON, sans-serif;
+}
+
+h4 {
+    font-family: HangeulNuriR, sans-serif;
+    font-size: 30px;
+    margin-top: -30px;
+    margin-bottom: -30px;
+    color: gray;
+}
+
+* {
+    box-sizing: border-box;
+}
+
+@media (min-width: 768px) {
+    .container {
+        width: 750px;
+    }
+}
+@media (min-width: 992px) {
+    .container {
+        width: 970px;
+    }
+}
+@media (min-width: 1200px) {
+    .container {
+        width: 1170px;
+    }
+}
+
+hr {
+    margin-left: 30px;
+    margin-right: 30px;
+}
+
+a {
+    margin-left: 40px;
+    margin-right: 40px;
+    font-family: Cafe24Ohsquareair, sans-serif;
+    font-size: 25px;
+    text-align: center;
+    margin-top: -20px;
+    text-decoration: none;
+}
+
+div {
+    font-size: 30px;
+    font-family: Cafe24Ohsquareair, sans-serif;
+    text-align: center;
+}
+
+.container {
+    padding-right: 15px;
+    padding-left: 15px;
+    margin-right: auto;
+    margin-left: auto;
+}
+
+input {
+    display : block;
+    margin : 0 auto;
+    text-align: center;
+    width: 300px;
+    font-family: Cafe24Ohsquareair, sans-serif;
+    height: 50px;
+    font-size: 30px;
+    border-radius: 9px;
+    border: 3px solid black;
+}
+
+input:focus {
+    outline: none;
+}
