@@ -13,8 +13,8 @@
 <script src="js/main.js"></script>
 <div class="container">
     <h1>UBD 계산기</h1>
-    <a href="ubd.html">
-        <h4>숫자 → UBD</h4>
+    <a href="index.html">
+        <h4>숫자 ← UBD</h4>
     </a>
     <h2>
         <script>
@@ -31,16 +31,16 @@
 
 <div>
     <label>
-        <input type=text id="input" onKeypress="divide();" onkeyup="this.value=this.value.replace(/[^0-9]/g,'');"/>
+        <input type=text id="input" onKeypress="multiply();" onkeyup="this.value=this.value.replace(/[^0-9]/g,'');"/>
     </label>
 </div>
 <div class="container">
     <h2 style="margin-top: 60px;">계산 결과</h2>
     <div>
-        <a id="display" style="font-size: 30px; margin-right: -45px;">172,212</a>
-        <a style="font-size: 30px; margin-right: -40px;">(은)는</a>
-        <a id="result" style="font-size: 30px; margin-right: -5px">1</a>
-        UBD 입니다.
+        <a id="display" style="font-size: 30px; margin-right: -45px;">1</a>
+        <a style="font-size: 30px; margin-right: -40px;">UBD는</a>
+        <a id="result" style="font-size: 30px; margin-right: -5px">172,212</a>
+        입니다.
     </div>
 </div>
 
